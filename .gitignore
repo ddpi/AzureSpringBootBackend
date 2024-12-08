@@ -6,8 +6,8 @@ build/
 !**/src/test/**/build/
 target/
 !target/
-target/*.jar
-target/*.jar.original
+my-backend-app/target/*.jar
+my-backend-app/target
 
 ### STS ###
 .apt_generated
