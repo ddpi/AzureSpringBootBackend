@@ -44,10 +44,10 @@
                 <version>2.13.0</version>
                 <configuration>
                     <schemaVersion>v2</schemaVersion>
-                    <resourceGroup>my-backend-app-1733618557210-rg</resourceGroup>
-                    <appName>my-backend-app-1733618557210</appName>
+                    <resourceGroup>myResourceGroup1</resourceGroup>
+                    <appName>my-backend-app</appName>
                     <pricingTier>F1</pricingTier>
-                    <region>centralus</region>
+                    <region>westus2</region>
                     <runtime>
                         <os>Linux</os>
                         <javaVersion>Java 17</javaVersion>

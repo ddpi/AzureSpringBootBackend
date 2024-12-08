@@ -1,0 +1,2 @@
+mvn clean package
+az webapp deploy --resource-group myResourceGroup1 --name my-backend-app --src-path target/my-backend-app-0.0.1-SNAPSHOT.jar --type jar
