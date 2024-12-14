@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import java.util.HashMap;
+import java.util.Map;
 
 @SpringBootApplication
 public class MyBackendAppApplication {
@@ -39,6 +41,13 @@ class MyController {
 
     @GetMapping("/api/hello")
     public String hello() {
-        return "Hello Azure App Service!";
+        return "Hello from Backend Azure App Service!";
+    }
+
+    @GetMapping("/api/hello-json")
+    public Map<String, String> helloJson() {
+        Map<String, String> response = new HashMap<>();
+        response.put("message", "Hello from Backend Azure App Service!(JSON)");
+        return response;
     }
 }

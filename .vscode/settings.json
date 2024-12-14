@@ -1,4 +1,5 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/1e6d0e04-3304-459c-adeb-bdb2d681d7a8/resourceGroups/myResourceGroup1/providers/Microsoft.Web/sites/my-backend-app",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
